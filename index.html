@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Simon Game</h1>
+        <div class="result">
+            <h1 class="your-score">Your Score : <span>0</span></h1>
+            <h1 class="best-scroe">Best Score : <span>0</span></h1>
+        </div>
+        <div class="structure">
+            <button id="green" class="btn green"></button>
+            <button id="red" class="btn red"></button>
+            <button id="blue" class="btn blue"></button>
+            <button id="yellow" class="btn yellow"></button>
+            <h1 class="error" style="display: none;">Game Over</h1>
+        </div>
+        <button class="start-btn">Start</button>
+    </div>
+    <!-- Jquery Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- External Js -->
+    <script src="index.js"></script>
+</body>
+</html>
